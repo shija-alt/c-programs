@@ -10,11 +10,11 @@ int main(){
     max=apples[0];
     day =0;
 
-    for(i=0;i<=7 ;i++)
+    for(i=0;i<7 ;i++)
         {
         sum=sum+apples[i];
         if (apples[i]>max){
-        max=apples[1];
+        max=apples[i];
         day=i;
         }
               }
